@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pour Salma — aujourd'hui, c'est toi.</title>
+  <meta name="theme-color" content="#101014">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <!-- INTRO -->
+  <section class="intro" id="intro">
+    <div class="intro-orb orb-a"></div>
+    <div class="intro-orb orb-b"></div>
+    <div class="intro-grid"></div>
+
+    <div class="intro-content">
+      <div class="tiny-label"><span></span> un petit truc pour toi <span></span></div>
+
+      <div class="envelope" id="envelope" tabindex="0" role="button" aria-label="Ouvrir le cadeau">
+        <div class="envelope-back"></div>
+        <div class="letter">
+          <div class="letter-mark">S</div>
+          <div class="letter-lines"></div>
+        </div>
+        <div class="flap"></div>
+        <div class="seal">✦</div>
+      </div>
+
+      <p class="intro-hint">clique pour ouvrir</p>
+      <div class="intro-title">SALMA<span>.</span></div>
+      <div class="intro-subtitle">07 · 10 · 2026</div>
+    </div>
+
+    <div class="scroll-line"><span></span></div>
+  </section>
+
+  <!-- MAIN -->
+  <main class="main" id="main">
+    <header class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-inner">
+        <p class="kicker">Aujourd'hui, exceptionnellement, tout tourne autour de toi.</p>
+        <h1>
+          <span>Joyeux</span>
+          <em>anniversaire</em>
+          <strong>Salma.</strong>
+        </h1>
+        <div class="hero-bottom">
+          <p>J'ai voulu faire mieux qu'un simple<br>« joyeux anniversaire » envoyé à 00:01.</p>
+          <div class="scroll-cue">SCROLL <span>↓</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="music-section">
+      <div class="music-copy">
+        <span class="section-number">01</span>
+        <p class="section-label">Bande-son</p>
+        <h2>Une chanson.<br><i>Pour toi.</i></h2>
+      </div>
+
+      <div class="player">
+        <div class="disc"><span>♫</span></div>
+        <div class="track-info">
+          <strong>musique.mp3</strong>
+          <small>appuie sur lecture · et laisse tourner</small>
+        </div>
+        <audio id="music" controls autoplay muted loop>
+          <source src="musique.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </section>
+
+    <section class="note-section">
+      <div class="note-stamp">SALMA<br>EDITION</div>
+      <div class="note-copy">
+        <span class="section-number">02</span>
+        <p class="section-label">Le petit mot</p>
+        <p class="big-note">
+          Il y a des gens qu'on connaît,<br>
+          et puis il y a <em>toi</em>.
+        </p>
+        <p class="small-note">
+          Je voulais juste prendre le temps de te faire un truc qui te ressemble :
+          un peu joli, un peu imprévisible, et surtout pas un copier-coller.
+          Alors voilà. Joyeux anniversaire. 🤍
+        </p>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="gallery-intro">
+        <span class="section-number">03</span>
+        <p class="section-label">Archives non officielles</p>
+        <h2>11 fois où<br><i>j'ai sorti mon téléphone.</i></h2>
+        <p>Parce que certaines photos méritaient mieux qu'une galerie perdue dans mon téléphone.</p>
+      </div>
+
+      <div class="gallery">
+        <figure class="photo photo-1"><img src="image1.jpeg" alt="Photo de Salma 1"><figcaption>01 / sans contexte</figcaption></figure>
+        <figure class="photo photo-2"><img src="image2.jpeg" alt="Photo de Salma 2"><figcaption>02 / évidemment</figcaption></figure>
+        <figure class="photo photo-3"><img src="image3.jpeg" alt="Photo de Salma 3"><figcaption>03 / celle-là</figcaption></figure>
+        <figure class="photo photo-4"><img src="image4.jpeg" alt="Photo de Salma 4"><figcaption>04 / encore toi</figcaption></figure>
+        <figure class="photo photo-5"><img src="image5.jpeg" alt="Photo de Salma 5"><figcaption>05 / moment capturé</figcaption></figure>
+        <figure class="photo photo-6"><img src="image6.jpeg" alt="Photo de Salma 6"><figcaption>06 / pas mal</figcaption></figure>
+        <figure class="photo photo-7"><img src="image7.jpeg" alt="Photo de Salma 7"><figcaption>07 / celle-ci aussi</figcaption></figure>
+        <figure class="photo photo-8"><img src="image8.jpeg" alt="Photo de Salma 8"><figcaption>08 / petit souvenir</figcaption></figure>
+        <figure class="photo photo-9"><img src="image9.jpeg" alt="Photo de Salma 9"><figcaption>09 / validée</figcaption></figure>
+        <figure class="photo photo-10"><img src="image10.jpeg" alt="Photo de Salma 10"><figcaption>10 / presque la fin</figcaption></figure>
+        <figure class="photo photo-11"><img src="image11.jpeg" alt="Photo de Salma 11"><figcaption>11 / fin de pellicule</figcaption></figure>
+      </div>
+    </section>
+
+    <footer class="ending">
+      <div class="ending-star">✦</div>
+      <p>Voilà, c'était pour toi.</p>
+      <h2>À une très belle année<br><i>Salma.</i></h2>
+      <div class="ending-line"></div>
+      <small>fin de la transmission · 2026</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
