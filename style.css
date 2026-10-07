@@ -670,14 +670,14 @@ audio {
 /* Nouvelles photos 12 et 13 */
 
 .photo-12 {
-  grid-column: 3 / 8;
+  grid-column: 3 / 9;
   margin-top: 80px;
   --r: 2deg;
 }
 
 .photo-13 {
-  grid-column: 8 / 13;
-  margin-top: 170px;
+  grid-column: 7 / 13;
+  margin-top: 100px;
   --r: -2deg;
 }
 
