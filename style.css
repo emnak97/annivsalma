@@ -269,6 +269,31 @@ body::selection { background: var(--pink); color: var(--black); }
   font-size: 13px;
   line-height: 1.7;
 }
+.photo-12 {
+  grid-column: 3 / 8;
+  margin-top: 80px;
+  --r: 2deg;
+}
+
+.photo-13 {
+  grid-column: 8 / 13;
+  margin-top: 170px;
+  --r: -2deg;
+}
+
+@media (max-width: 720px) {
+  .photo-12,
+  .photo-13 {
+    width: 85%;
+    margin-left: 0;
+    margin-right: auto;
+    margin-bottom: 85px;
+  }
+
+  .photo-13 {
+    margin-left: 12%;
+  }
+}
 .scroll-cue {
   color: #77727a;
   font-size: 9px;
